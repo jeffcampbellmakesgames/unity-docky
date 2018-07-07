@@ -1,7 +1,8 @@
 # Docky
 Docky is a custom Unity editor tool to help automate documentation creation and updating.
 
-**Last Updated:** 7/7/2018 3:15 PM
+**Last Updated:** 7/7/2018 4:07 PM
+
 **Updated with Unity Editor Version:** 2018.1.3f1
 
 ## Overview
@@ -13,7 +14,7 @@ Any class derived from DockyDefinition is equivalent to a markdown file in the p
 Underneath the Tools menu item, there is a menu option **Create or Update All Readmes** that will search out all derived classes of DockyDefinition and iterate through each one, writing each one's markdown content through the appropriate folder.
 
 ## Optional Unity-CoC Integration
-If the Unity-CoC (convention over configuration) library found[here](https://github.com/jeffcampbellmakesgames/unity-coc, "Unity-CoC Repo")is present, additional menu items will be present that allow for 
+If the Unity-CoC (convention over configuration) library found [here](https://github.com/jeffcampbellmakesgames/unity-coc, "Unity-CoC Repo") is present, additional menu items will be present that allow for 
 generating code for individual menu items per DockyDefinition derived clas. Each one of these menu items will allow for updating just that DockyDefinition derived class's 
 markdown file. This integration is entirely optional and could be slightly rewritten in a forked/duplicated version to write to hardcoded paths.
 

@@ -57,6 +57,7 @@ namespace JCMG.Docky.Editor
 				db.AppendLine("Docky is a custom Unity editor tool to help automate documentation creation and updating.");
 				db.AppendBlankLine();
 				db.AppendLine(string.Format("**Last Updated:** {0:g}", DateTime.Now));
+				db.AppendBlankLine();
 				db.AppendLine(string.Format("**Updated with Unity Editor Version:** {0:g}", Application.unityVersion));
 				db.AppendBlankLine();
 
@@ -77,9 +78,9 @@ namespace JCMG.Docky.Editor
 
 				// COC Integration
 				db.AppendHeader(DockyHeader.Two, "Optional Unity-CoC Integration");
-				db.AppendLine("If the Unity-CoC (convention over configuration) library found" + 
+				db.AppendLine("If the Unity-CoC (convention over configuration) library found " + 
 DockyFormattingUtility.InlineLink("here", "https://github.com/jeffcampbellmakesgames/unity-coc", "Unity-CoC Repo") +
-@"is present, additional menu items will be present that allow for 
+@" is present, additional menu items will be present that allow for 
 generating code for individual menu items per DockyDefinition derived clas. Each one of these menu items will allow for updating just that DockyDefinition derived class's 
 markdown file. This integration is entirely optional and could be slightly rewritten in a forked/duplicated version to write to hardcoded paths.");
 				db.AppendBlankLine();
