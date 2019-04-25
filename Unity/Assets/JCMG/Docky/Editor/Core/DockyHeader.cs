@@ -1,21 +1,7 @@
-# Docky
-Docky is a custom Unity editor tool to help automate documentation creation and updating.
-
-**Updated with Unity Editor Version:** 2019.1.0f2
-
-## Overview
-Docky can help automate the creation of markdown files documenting aspects of your game through two ways.
-### **DockyDefinition**
-Any class derived from DockyDefinition is equivalent to a markdown file in the project. It's Write method is resonsible for creating the documentation content. There are several utilities such as DockyBuilder, DockyFormattingUtility, and ReflectionUtility that can support getting any of the markdown formatting and code meta info necessary for creating documentation content.
-
-### **Menu Item**
-Underneath the Tools menu item, there is a menu option **Create or Update All Readmes** that will search out all derived classes of DockyDefinition and iterate through each one, writing each one's markdown content through the appropriate folder.
-
-## License
-
+﻿/*
 MIT License
 
-Copyright (c) 2019 Jeff Campbell
+Copyright (c) 2018 Jeff Campbell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,5 +20,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+*/
 
+using System.Runtime.Serialization;
 
+namespace JCMG.Docky.Editor
+{
+    public enum DockyHeader
+    {
+        [EnumMember(Value = "#")] One,
+        [EnumMember(Value = "##")] Two,
+        [EnumMember(Value = "###")] Three,
+        [EnumMember(Value = "####")] Four,
+        [EnumMember(Value = "#####")] Five
+    }
+}
