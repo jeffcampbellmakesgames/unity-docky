@@ -1,9 +1,7 @@
 # Docky
 Docky is a custom Unity editor tool to help automate documentation creation and updating.
 
-**Last Updated:** 7/7/2018 4:07 PM
-
-**Updated with Unity Editor Version:** 2018.1.3f1
+**Updated with Unity Editor Version:** 2019.1.0f2
 
 ## Overview
 Docky can help automate the creation of markdown files documenting aspects of your game through two ways.
@@ -22,7 +20,7 @@ markdown file. This integration is entirely optional and could be slightly rewri
 
 MIT License
 
-Copyright (c) 2018 Jeff Campbell
+Copyright (c) 2019 Jeff Campbell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
