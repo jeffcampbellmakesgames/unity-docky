@@ -11,11 +11,6 @@ Any class derived from DockyDefinition is equivalent to a markdown file in the p
 ### **Menu Item**
 Underneath the Tools menu item, there is a menu option **Create or Update All Readmes** that will search out all derived classes of DockyDefinition and iterate through each one, writing each one's markdown content through the appropriate folder.
 
-## Optional Unity-CoC Integration
-If the Unity-CoC (convention over configuration) library found [here](https://github.com/jeffcampbellmakesgames/unity-coc, "Unity-CoC Repo") is present, additional menu items will be present that allow for 
-generating code for individual menu items per DockyDefinition derived clas. Each one of these menu items will allow for updating just that DockyDefinition derived class's 
-markdown file. This integration is entirely optional and could be slightly rewritten in a forked/duplicated version to write to hardcoded paths.
-
 ## License
 
 MIT License
