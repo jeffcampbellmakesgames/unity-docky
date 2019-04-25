@@ -26,7 +26,7 @@ using System.Linq;
 using System.Text;
 using UnityEditor;
 
-namespace JCMG.Docky.Editor.Utility
+namespace JCMG.Docky.Editor
 {
 	public static class PlayerSettingsUtility
 	{

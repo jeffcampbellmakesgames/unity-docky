@@ -25,7 +25,6 @@ SOFTWARE.
 using JCMG.COC.Editor;
 #endif
 
-using JCMG.Docky.Editor.Utility;
 using UnityEditor;
 
 namespace JCMG.Docky.Editor

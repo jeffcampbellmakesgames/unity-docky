@@ -25,7 +25,7 @@ SOFTWARE.
 using System;
 using UnityEngine;
 
-namespace JCMG.Docky.Editor.Core
+namespace JCMG.Docky.Editor
 {
     public class DockyDefinition
     {

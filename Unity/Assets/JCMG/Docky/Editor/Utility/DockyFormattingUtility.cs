@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-namespace JCMG.Docky.Editor.Utility
+namespace JCMG.Docky.Editor
 {
 	public static class DockyFormattingUtility
 	{

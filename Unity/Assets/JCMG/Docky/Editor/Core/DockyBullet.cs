@@ -24,7 +24,7 @@ SOFTWARE.
 
 using System.Runtime.Serialization;
 
-namespace JCMG.Docky.Editor.Core
+namespace JCMG.Docky.Editor
 {
     public enum DockyBullet
     {

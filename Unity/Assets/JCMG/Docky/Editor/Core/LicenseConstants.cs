@@ -24,7 +24,7 @@ SOFTWARE.
 
 using System;
 
-namespace JCMG.Docky.Editor.Core
+namespace JCMG.Docky.Editor
 {
 	public class LicenseConstants
 	{
@@ -34,7 +34,7 @@ namespace JCMG.Docky.Editor.Core
 		}
 
 		/// <summary>
-		/// Replace this with the intellectual property owner that should be 
+		/// Replace this with the intellectual property owner that should be
 		/// represented on the license in the markdown file.
 		/// </summary>
 		public static string GlobalOwner

@@ -28,7 +28,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace JCMG.Docky.Editor.Utility
+namespace JCMG.Docky.Editor
 {
 	public static class ReflectionUtility
 	{

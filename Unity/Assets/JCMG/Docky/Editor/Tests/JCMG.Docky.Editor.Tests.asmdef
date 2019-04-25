@@ -1,0 +1,19 @@
+{
+    "name": "JCMG.Docky.Editor.Tests",
+    "references": [
+        "GUID:ce0281bfde7302b41b2c94fe7b513ff0"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

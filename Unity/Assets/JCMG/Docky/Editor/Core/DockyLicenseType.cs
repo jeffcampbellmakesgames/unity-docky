@@ -22,16 +22,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-using System.Runtime.Serialization;
-
-namespace JCMG.Docky.Editor.Core
+namespace JCMG.Docky.Editor
 {
-    public enum DockyHeader
-    {
-        [EnumMember(Value = "#")] One,
-        [EnumMember(Value = "##")] Two,
-        [EnumMember(Value = "###")] Three,
-        [EnumMember(Value = "####")] Four,
-        [EnumMember(Value = "#####")] Five
-    }
+	public enum DockyLicenseType
+	{
+		None,
+		MIT
+	}
 }

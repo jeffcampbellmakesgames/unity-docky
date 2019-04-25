@@ -22,13 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-using JCMG.Docky.Editor.Utility;
 using System;
 using System.IO;
 using System.Text;
 using UnityEngine;
 
-namespace JCMG.Docky.Editor.Core
+namespace JCMG.Docky.Editor
 {
 	public class DockyBuilder : IDisposable
     {
@@ -84,7 +83,7 @@ namespace JCMG.Docky.Editor.Core
 
         public void Dispose()
         {
-            
+
         }
 
         #endregion

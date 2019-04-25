@@ -1,7 +1,7 @@
 ﻿/*
 MIT License
 
-Copyright (c) 2018 Jeff Campbell
+Copyright (c) 2019 Jeff Campbell
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,7 +26,7 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace JCMG.Docky.Editor.Utility.Tests
+namespace JCMG.Docky.Editor.Tests
 {
 	[TestFixture]
 	public class ReflectionUtilityTests

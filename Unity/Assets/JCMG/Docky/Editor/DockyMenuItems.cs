@@ -22,13 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-using System.IO;
-using JCMG.Docky.Editor.Core;
-using JCMG.Docky.Editor.Utility;
-using System.Linq;
-using System.Text;
 using UnityEditor;
-using UnityEngine;
 
 #pragma warning disable 1587
 
@@ -68,7 +62,7 @@ namespace JCMG.Docky.Editor
         var dockyDef = new {0}();
         dockyDef.Write();
 ", dockyDefinition.GetType().FullName));
-                
+
 
                 sb.AppendLine("    }");
                 sb.AppendLine("");

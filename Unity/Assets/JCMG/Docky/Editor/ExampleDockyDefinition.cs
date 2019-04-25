@@ -22,8 +22,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-using JCMG.Docky.Editor.Core;
-using JCMG.Docky.Editor.Utility;
 using System;
 using UnityEditor;
 using UnityEngine;
@@ -65,7 +63,7 @@ namespace JCMG.Docky.Editor
 				db.AppendHeader(DockyHeader.Two, "Overview");
 				db.AppendLine(@"Docky can help automate the creation of markdown files documenting aspects of your game through two ways.");
 				db.AppendHeader(DockyHeader.Three, DockyFormattingUtility.Bold("DockyDefinition"));
-				db.Append("Any class derived from DockyDefinition is equivalent to a markdown file in the project. It's Write method is " + 
+				db.Append("Any class derived from DockyDefinition is equivalent to a markdown file in the project. It's Write method is " +
 "resonsible for creating the documentation content. There are several utilities such as DockyBuilder, DockyFormattingUtility, and ReflectionUtility " +
 "that can support getting any of the markdown formatting and code meta info necessary for creating documentation content.");
 				db.AppendBlankLines(2);
@@ -78,10 +76,10 @@ namespace JCMG.Docky.Editor
 
 				// COC Integration
 				db.AppendHeader(DockyHeader.Two, "Optional Unity-CoC Integration");
-				db.AppendLine("If the Unity-CoC (convention over configuration) library found " + 
+				db.AppendLine("If the Unity-CoC (convention over configuration) library found " +
 DockyFormattingUtility.InlineLink("here", "https://github.com/jeffcampbellmakesgames/unity-coc", "Unity-CoC Repo") +
-@" is present, additional menu items will be present that allow for 
-generating code for individual menu items per DockyDefinition derived clas. Each one of these menu items will allow for updating just that DockyDefinition derived class's 
+@" is present, additional menu items will be present that allow for
+generating code for individual menu items per DockyDefinition derived clas. Each one of these menu items will allow for updating just that DockyDefinition derived class's
 markdown file. This integration is entirely optional and could be slightly rewritten in a forked/duplicated version to write to hardcoded paths.");
 				db.AppendBlankLine();
 
